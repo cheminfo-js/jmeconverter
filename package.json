@@ -1,0 +1,30 @@
+{
+  "name": "jmeconverter",
+  "version": "0.0.0",
+  "description": "Convert molecules between JME and Molfile formats",
+  "keywords": [
+    "jme",
+    "molfile",
+    "format",
+    "converter",
+    "molecule"
+  ],
+  "author": "Luc Patiny",
+  "repository": "cheminfo-js/jmeconverter",
+  "bugs": {
+    "url": "https://github.com/cheminfo-js/jmeconverter/issues"
+  },
+  "homepage": "https://github.com/cheminfo-js/jmeconverter",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter mocha-better-spec-reporter --recursive",
+    "build": "cheminfo build"
+  },
+  "devDependencies": {
+    "cheminfo-tools": "^1.0.2",
+    "mocha": "^2.2.5",
+    "mocha-better-spec-reporter": "^2.1.1",
+    "should": "^7.0.2"
+  }
+}
